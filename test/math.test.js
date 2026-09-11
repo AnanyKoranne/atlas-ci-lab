@@ -14,3 +14,20 @@ test('isEven detects even numbers', () => {
 test('formatName joins first and last', () => {
   assert.strictEqual(formatName('Ada', 'Lovelace'), 'Ada Lovelace');
 });
+
+
+// Tiny pure utility functions used by the CI lab.
+
+// function add(a, b) {
+//   return a - b;
+// }
+
+// function isEven(n) {
+//   return n % 2 === 0;
+// }
+
+// function formatName(first, last) {
+//   return `${first} ${last}`.trim();
+// }
+
+// module.exports = { add, isEven, formatName };
